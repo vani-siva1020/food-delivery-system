@@ -24,8 +24,6 @@ class Food {
         this.available = available;
     }
 }
-
-// 🔹 ORDER TABLE
 class Order {
     List<Food> items = new ArrayList<>();
     int total = 0;
